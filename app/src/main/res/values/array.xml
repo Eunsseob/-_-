@@ -1,0 +1,14 @@
+<resources>
+    <!-- Other string resources -->
+
+    <string-array name="my_ring">
+        <item>기본</item>
+        <item>물방울</item>
+        <item>마우스</item>
+    </string-array>
+    <string-array name="my_ring_values">
+        <item>bubble</item>
+        <item>water</item>
+        <item>mouse</item>
+    </string-array>
+</resources>

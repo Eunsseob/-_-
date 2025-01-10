@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_calendar">
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.example.myapplication.CalendarFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_calendar" >
+        <action
+            android:id="@+id/action_navigation_calendar_to_navigation_memo"
+            app:destination="@id/navigation_memo" />
+        <action
+            android:id="@+id/action_navigation_calendar_to_navigation_memo2"
+            app:destination="@id/navigation_memo" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_memo"
+        android:name="com.example.myapplication.MemoFragment"
+        android:label="@string/title_memo"
+        tools:layout="@layout/fragment_memo" >
+        <action
+            android:id="@+id/action_navigation_memo_to_navigation_edit"
+            app:destination="@id/navigation_edit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_edit"
+        android:name="com.example.myapplication.EditFragment"
+        android:label="@string/title_edit"
+        tools:layout="@layout/fragment_edit">
+        <action
+            android:id="@+id/action_navigation_edit_to_navigation_history"
+            app:destination="@id/navigation_history" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.myapplication.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history"/>
+
+
+
+
+</navigation>

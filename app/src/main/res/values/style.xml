@@ -1,0 +1,10 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- 액션바 색상 지정 -->
+        <item name="colorPrimary">@color/my_color</item>
+        <item name="colorPrimaryDark">@color/my_dark_color</item>
+        <item name="colorAccent">@color/my_accent_color</item>
+        <item name="actionMenuTextColor">@color/my_action_menu_text_color</item>
+
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 액션바의 배경색 -->
+    <color name="my_color">#FF4081</color>
+    <!-- 상태 표시줄의 배경색 -->
+    <color name="my_dark_color">#E91E63</color>
+    <!-- 강조색 (액션바 아이콘 등에 적용) -->
+    <color name="my_accent_color">#FFFFFF</color>
+        <!-- 액션바의 글자색 -->
+        <color name="my_action_menu_text_color">#FFFFFF</color>
+</resources>

@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/baseline_perm_contact_calendar_24" android:id="@+id/menu1" android:title="이승주의 Notion"/>
+    <item android:icon="@drawable/baseline_perm_contact_calendar_24" android:id="@+id/menu2" android:title="손은섭의 Notion"/>
+    <item android:icon="@drawable/baseline_perm_contact_calendar_24" android:id="@+id/menu3" android:title="정성아의 Notion"/>
+    <item android:icon="@drawable/baseline_account_balance_24" android:id="@+id/menu4" android:title="한국공학대 홈페이지"/>
+</menu>
